@@ -13,3 +13,5 @@ opt-level = 3
 
 [dependencies]
 bevy = "0.10.1"
+clippy = "0.0.302"
+rustfmt = "0.10.0"
