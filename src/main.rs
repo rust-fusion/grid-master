@@ -1,8 +1,7 @@
 use bevy::prelude::*;
 
 fn main() {
-    loop {
-        App::new().run();
-
-    }
+    App::build()
+    .add_plugins(DefaultPlugins)
+    .run();
 }
