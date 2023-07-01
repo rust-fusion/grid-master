@@ -10,5 +10,4 @@ cargo install wasm-bindgen-cli --force
 mkdir -p static
 
 # Generate JavaScript bindings for the WebAssembly code
-wasm-bindgen ./target/wasm32-unknown-unknown/release/my_game.wasm --out-dir static --no-typescript
-
+wasm-bindgen ./target/wasm32-unknown-unknown/release/grid-master.wasm --out-dir static --no-typescript

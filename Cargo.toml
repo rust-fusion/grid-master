@@ -13,6 +13,5 @@ opt-level = 3
 
 [dependencies]
 bevy = "0.10.1"
-bevy_webgl2 = "0.5.2"
-clippy = "0.0.302"
-rustfmt = "0.10.0"
+# clippy = "0.0.302"
+# rustfmt = "0.10.0"
