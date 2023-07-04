@@ -11,7 +11,11 @@ opt-level = 1
 [profile.dev.package."*"]
 opt-level = 3
 
+# Add a debug feature to your own Cargo.toml, make it default
+[features]
+debug = ["bevy-debug-text-overlay/debug"]
+default = ["debug"]
+
 [dependencies]
 bevy = "0.10.1"
-clippy = "0.0.302"
-rustfmt = "0.10.0"
+bevy-debug-text-overlay = { version = "5.0", default-features = false, features = ["builtin-font"] }
